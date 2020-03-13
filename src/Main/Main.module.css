@@ -1,4 +1,20 @@
 .main {
     height: 100vh;
     background: #f7c8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    border: 1px solid;
+    width: 80%;
+    height: 60%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.myPhoto img{
+    width: 250px;
+    height: 350px;
 }
