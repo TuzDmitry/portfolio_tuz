@@ -1,0 +1,27 @@
+.skill {
+    background: #b6b3ac;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skillName {
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.skill img {
+    padding-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.skillDescription {
+    background: #c8ffb3;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

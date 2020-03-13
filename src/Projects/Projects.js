@@ -1,10 +1,14 @@
 import React from 'react';
 import styles from './Projects.module.css';
+import Project from "./Project/Project";
 
 function Projects() {
   return (
     <div className={styles.projects}>
-      здесь живут проджектс
+        <div className={styles.container}>
+            <Project nameOfProject='Project1'  descriptOfProject='Описание Project1' pictOfProject='https://avatars.mds.yandex.net/get-altay/247136/2a0000015b861c38531a35339a249d869579/XXL'/>
+            <Project nameOfProject='Project2'  descriptOfProject='Описание Project2' />
+        </div>
     </div>
   );
 }
