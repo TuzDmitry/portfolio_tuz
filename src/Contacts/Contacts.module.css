@@ -1,4 +1,36 @@
 .contacts {
     height: 100vh;
     background: #548cff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.form button {
+    width: 100px;
+    margin-top: 40px;
+    align-self: center;
+}
+
+form input {
+    margin-bottom: 15px;
 }
