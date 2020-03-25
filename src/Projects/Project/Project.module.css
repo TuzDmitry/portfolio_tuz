@@ -11,16 +11,18 @@
     box-sizing: border-box;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-weight: bold;
 }
 
 .image {
     background: url(https://proektnareklamu.ru/images/1.jpg);
     background-size: cover;
     display: flex;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: auto;
 }
-.image button{
+
+.image button {
     margin: auto;
 }
 
@@ -30,4 +32,21 @@
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-weight: 600;
+    /*align-self: stretch;*/
+}
+
+@media only screen and (max-width: 520px) {
+    .project {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .skill img {
+        padding-top: 0px;
+    }
+
+    .image{
+        height: 100vw;
+    }
 }

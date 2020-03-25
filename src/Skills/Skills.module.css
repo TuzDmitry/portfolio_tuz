@@ -1,16 +1,58 @@
 .skills {
+
     height: 100vh;
     background: #64faff;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 30vw;
 }
 .container {
+    flex-direction: column;
     border: 1px solid;
     width: 80%;
     height: 60%;
-
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
+}
+
+.skillsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+/* //здесь стили для экранов не больше 800px */
+@media only screen and (max-width: 800px) {
+    /*body {*/
+    /*    margin: 50px;*/
+    /*    background: yellow;*/
+    /*}*/
+}
+
+@media only screen and (max-width: 600px) {
+    /*body {*/
+    /*    margin: 25px;*/
+    /*    background: pink;*/
+    /*}*/
+}
+
+@media only screen and (max-width: 520px) {
+    .skills {
+        height: auto;
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    .skillsContainer {
+
+        width: 100%;
+        flex-wrap: wrap;
+    }
 }

@@ -4,13 +4,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 30vw;
 }
 
 .container {
+    flex-direction: column;
     border: 1px solid;
     width: 80%;
     height: 60%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
+}
+
+.projectsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70%;
+}
+
+@media only screen and (max-width: 520px) {
+    .projects {
+        height: auto;
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    .container {
+    width: 100%;
+    }
+
+    .projectsContainer {
+        height: auto;
+
+        width: 100%;
+        flex-wrap: wrap;
+    }
 }
