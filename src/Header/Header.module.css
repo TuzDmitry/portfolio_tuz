@@ -3,10 +3,10 @@
     background: #6bafff;
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
+
 .container {
-    border: 1px solid;
     width: 80%;
     display: flex;
     justify-content: flex-end;

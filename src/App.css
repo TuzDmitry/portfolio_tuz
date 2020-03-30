@@ -1,29 +1,17 @@
-@media only screen and (max-width : 1024px) {
-
+@media only screen and (max-width: 1024px) {
 }
 
-/* //здесь стили для экранов не больше 800px */
-@media only screen and (max-width : 800px) {
-    /*body {*/
-    /*    margin: 50px;*/
-    /*    background: yellow;*/
-    /*}*/
+@media only screen and (max-width: 800px) {
 }
-@media only screen and (max-width : 600px) {
-    /*body {*/
-    /*    margin: 25px;*/
-    /*    background: pink;*/
-    /*}*/
-}
-@media only screen and (max-width : 520px) {
+
+@media only screen and (max-width: 520px) {
     .titleBlock {
         padding-top: 20px;
         padding-bottom: 30px;
     }
 }
+
 .portfolio {
-    /*font-size: 1.5em;*/
-    /*font-weight: bold;*/
     min-height: 320px;
     min-width: 320px;
 }

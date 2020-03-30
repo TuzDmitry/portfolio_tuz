@@ -28,7 +28,7 @@
     .projects {
         height: auto;
         padding-top: 70px;
-        padding-bottom: 40px;
+        padding-bottom: 0px;
     }
 
     .container {

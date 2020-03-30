@@ -15,7 +15,6 @@
 }
 
 
-
 @media only screen and (max-width: 1804px) {
     .main {
         align-items: center;
@@ -38,19 +37,11 @@
     }
 }
 
-/* //здесь стили для экранов не больше 800px */
 @media only screen and (max-width: 800px) {
-    /*body {*/
-    /*    margin: 50px;*/
-    /*    background: yellow;*/
-    /*}*/
+
 }
 
 @media only screen and (max-width: 600px) {
-    /*body {*/
-    /*    margin: 25px;*/
-    /*    background: pink;*/
-    /*}*/
 }
 
 @media only screen and (max-width: 520px) {
@@ -82,6 +73,7 @@
     }
 
     .greeting {
+        margin-top: 20px;
         margin-bottom: 30px;
         min-width: 285px;
     }

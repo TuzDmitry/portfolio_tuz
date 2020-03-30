@@ -11,6 +11,7 @@
     box-sizing: border-box;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 1.1em;
     font-weight: bold;
 }
 
@@ -19,11 +20,15 @@
     background-size: cover;
     display: flex;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .image button {
     margin: auto;
+    font-size: 1.2em;
+    width: 150px;
+    font-weight: bold;
+    height: 45px;
 }
 
 
@@ -32,7 +37,7 @@
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: 600;
+    font-weight: 700;
     /*align-self: stretch;*/
 }
 
@@ -46,7 +51,7 @@
         padding-top: 0px;
     }
 
-    .image{
+    .image {
         height: 100vw;
     }
 }

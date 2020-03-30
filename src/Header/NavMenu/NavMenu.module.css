@@ -1,8 +1,10 @@
 .link {
     text-decoration: none;
+    font-weight: bold;
 }
 
 .navMenu {
+    border: 1px solid;
     width: 400px;
     display: flex;
     justify-content: space-between;
