@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div className={styles.projects}>
         <div className={styles.container}>
-            <div className='titleBlock'>Мои работы</div>
+            <h2 className='titleBlock'>My Works</h2>
             <div className={styles.projectsContainer}>
                 <Project nameOfProject='Project1'  descriptOfProject='Описание Project1' pictOfProject='https://avatars.mds.yandex.net/get-altay/247136/2a0000015b861c38531a35339a249d869579/XXL'/>
                 <Project nameOfProject='Project2'  descriptOfProject='Описание Project2' />

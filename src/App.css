@@ -11,12 +11,16 @@
     }
 }
 
+
+
 .portfolio {
     min-height: 320px;
     min-width: 320px;
 }
 
 .titleBlock {
-    font-size: 1.5em;
-    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 5px;
 }

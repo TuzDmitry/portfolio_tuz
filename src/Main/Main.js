@@ -7,10 +7,10 @@ function Main() {
         <div className={styles.container}>
             <div className={styles.greeting}>
                 <div>Привет</div>
-                <div>Меня зовут Дмитрий Туз</div>
-                <div>Я React разработчик</div>
+                <div>I am <span className={styles.firstLastName}> Dmitry Tuz</span></div>
+                <h1>Я React разработчик</h1>
             </div>
-            <div className={styles.myPhoto}>
+            <div className={styles.myPhotoContainer}>
                 <img src="https://filmy.by/wp-content/uploads/2019/10/david-duchovny-filmy-by.jpg" alt=""/>
             </div>
         </div>

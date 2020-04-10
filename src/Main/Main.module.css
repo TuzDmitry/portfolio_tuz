@@ -1,18 +1,71 @@
 
 .main {
     height: 100vh;
-    background: #f7c8ff;
+    background: #1f1f20;
     display: flex;
     justify-content: center;
-    font-size: 1.2em;
-    font-weight: bold;
+    /*font-size: 1.2em;*/
+    /*font-weight: bold;*/
 }
 
 .container {
-    border: 1px solid;
+    /*border: 1px solid;*/
     display: flex;
     justify-content: space-around;
+    width: 80%;
 }
+
+.greeting div:nth-child(1){
+    font-size: 14px;
+}
+.greeting div:nth-child(2){
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.h1{
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.firstLastName {
+    position: relative;
+    color: #ff0f6e;
+    z-index: 0;
+}
+.firstLastName::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    z-index: -1;
+    background: #4e93e6;
+    box-sizing: border-box;
+}
+.myPhotoContainer img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.myPhotoContainer::before {
+    content: "";
+    position: absolute;
+    left: 16px;
+    right: 0;
+    bottom: 15px;
+    height: 100%;
+    width: 100%;
+    z-index: -3;
+    border: 5px solid red;
+}
+
 
 
 @media only screen and (max-width: 1804px) {
@@ -21,20 +74,19 @@
     }
 
     .container {
-        width: 80%;
+        /*width: 80%;*/
         height: 60%;
         align-items: center;
     }
 
-    .myPhoto {
+    .myPhotoContainer {
+        position: relative;
         width: 45vh;
         height: 100%;
+        z-index: 7;
     }
 
-    .myPhoto img {
-        width: 100%;
-        height: 100%;
-    }
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -46,6 +98,7 @@
 
 @media only screen and (max-width: 520px) {
     .main {
+        padding-top: 70px;
         align-items: flex-start;
         height: auto;
         padding-bottom: 80px;
@@ -55,27 +108,28 @@
 
 
     .container {
-        width: 95%;
+        /*width: 90%;*/
         height: auto;
         flex-wrap: wrap;
         align-items: flex-start;
     }
 
-    .myPhoto {
-        width: 90%;
+    .myPhotoContainer {
+        width: 100%;
         height: 65%;
+
     }
 
-    .myPhoto img {
+    .myPhotoContainer img {
         width: 100%;
-        height: 120vw;
-        min-width: 300px;
+        /*height: 120vw;*/
+        /*min-width: 300px;*/
     }
 
     .greeting {
         margin-top: 20px;
         margin-bottom: 30px;
-        min-width: 285px;
+        /*min-width: 285px;*/
     }
 }
 

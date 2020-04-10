@@ -38,7 +38,7 @@ form input {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
     .contacts {
         height: 100vh;
     }
@@ -50,7 +50,7 @@ form input {
 
 @media only screen and (max-width: 520px) {
     .container {
-        width: 95%;
+        /*width: 95%;*/
     }
 
     .form {
