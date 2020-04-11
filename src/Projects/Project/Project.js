@@ -7,7 +7,7 @@ const Project=(props)=> {
         <div className={styles.image}>
             <button>Смотреть</button>
         </div>
-        <div className={styles.projectName}>{props.nameOfProject}</div>
+        <h3 className={styles.projectName}>{props.nameOfProject}</h3>
         <div className={styles.projectDescription}>{props.descriptOfProject}</div>
     </div>
   );

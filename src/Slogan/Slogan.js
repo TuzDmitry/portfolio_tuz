@@ -5,8 +5,8 @@ function Slogan() {
   return (
     <div className={styles.slogan}>
         <div className={styles.container}>
-            <div className={styles.advantages}>Рассматриваю вариант удаленной работы</div>
-            <button>Нанять меня</button>
+            <h2 className={styles.advantages}>Рассматриваю вариант удаленной работы</h2>
+            <button className={styles.btn}>Нанять меня</button>
         </div>
     </div>
   );

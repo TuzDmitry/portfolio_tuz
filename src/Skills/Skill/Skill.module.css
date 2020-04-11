@@ -1,5 +1,4 @@
 .skill {
-    background: #b6b3ac;
     width: 28%;
     display: flex;
     flex-direction: column;
@@ -8,11 +7,7 @@
 }
 
 .skillName {
-    box-sizing: border-box;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 1.4em;
-    font-weight: bold;
+font-weight: 400;
 }
 
 .skill img {
@@ -21,13 +16,9 @@
 }
 
 .skillDescription {
-    background: #c8ffb3;
     text-align: center;
-    padding-top: 20px;
     padding-bottom: 20px;
     align-self: stretch;
-    font-size: 1.2em;
-    font-weight: 700;
     margin-bottom: auto;
 }
 @media only screen and (max-width: 800px) {

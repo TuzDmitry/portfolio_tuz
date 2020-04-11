@@ -1,6 +1,6 @@
 .slogan {
     height: 45vh;
-    background: #ff7d00;
+    background: #252527;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,15 +17,32 @@
 }
 
 .advantages{
-    font-size: 1.5em;
-    font-weight: bold;
+    text-transform: capitalize;
+}
+.advantages::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    height: 1px;
+    width: 180px;
+    z-index: 0;
+    background: #4e93e6;
+    box-sizing: border-box;
 }
 
-.container button {
-    font-size: 1.2em;
-    width: 150px;
-    font-weight: bold;
-    height: 45px;
+.btn {
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-transform: uppercase;
+
+    max-width: 170px;
 }
 
 
