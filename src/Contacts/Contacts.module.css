@@ -1,13 +1,13 @@
 .contacts {
     height: 100vh;
-    background: #548cff;
+    background-color: #1f1f20;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container {
-    border: 1px solid;
+    /*border: 1px solid;*/
     width: 80%;
     height: 60%;
     display: flex;
@@ -18,33 +18,43 @@
 
 .form {
     width: 60%;
-    margin: auto;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .form button {
-    font-size: 1.2em;
-    width: 150px;
-    font-weight: bold;
-    height: 45px;
+    /*font-size: 1.2em;*/
+    /*width: 150px;*/
+    /*font-weight: bold;*/
+    /*height: 45px;*/
     margin-top: 40px;
     align-self: center;
 }
-
-form input {
+.form input{ height: 30px;}
+.form input, .form textarea {
     margin-bottom: 15px;
+    background: #252527;
+    border: 1px solid #4a4a4a;
+    font-size: 12px;
+    padding: 0 15px;
+    border-radius: 0;
+    line-height: 1.5;
+    color: #495057;
+    font-weight: 300;
+    line-height: 1.5;
 }
 
 
 @media only screen and (max-width: 850px) {
     .contacts {
-        height: 100vh;
+        max-height: 140vh;
     }
 
     .container {
         min-height: 80vh;
+        height: 80%;
     }
 }
 

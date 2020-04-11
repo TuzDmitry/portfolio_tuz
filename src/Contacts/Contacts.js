@@ -5,14 +5,16 @@ function Contacts() {
     return (
         <div className={styles.contacts}>
             <div className={styles.container}>
-                <div className='titleBlock'>Мои контакты</div>
+                <div className='titleBlock'>
+                    <h2>Contact Me</h2>
+                    <div className="module-line"></div>
+                </div>
                 <form className={styles.form} action="">
-                    <input type="text" value="Name"/>
-                    <input type="text" value="E-mail"/>
-                    <textarea name="" id="" cols="30" rows="5"  value="Your message"></textarea>
-                    <button>Нанять меня</button>
+                    <input className="formcontrol" type="text" value="Name"/>
+                    <input className="formcontrol" type="text" value="E-mail"/>
+                    <textarea className="form-control" name="" id="" cols="30" rows="5"  value="Your message"></textarea>
+                    <button className="btn">Sand Message</button>
                 </form>
-
             </div>
         </div>
     );

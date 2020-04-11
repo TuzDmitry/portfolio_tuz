@@ -1,12 +1,12 @@
 .header {
     height: 60px;
-    background: #b1a8b6;
+    background: rgba(61, 61, 63, 0.59);
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 10;
 }
 
 .container {

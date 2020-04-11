@@ -5,7 +5,7 @@ const Project=(props)=> {
   return (
     <div className={styles.project}>
         <div className={styles.image}>
-            <button>Смотреть</button>
+            <button className="btn">Смотреть</button>
         </div>
         <h3 className={styles.projectName}>{props.nameOfProject}</h3>
         <div className={styles.projectDescription}>{props.descriptOfProject}</div>

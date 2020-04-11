@@ -6,7 +6,10 @@ function Skills() {
     return (
         <div className={styles.skills}>
             <div className={styles.container}>
-                <h2 className='titleBlock'>My Skills</h2>
+                <div className='titleBlock'>
+                    <h2>My Skills</h2>
+                    <div className="module-line"></div>
+                </div>
                 <div className={styles.skillsContainer}>
                     <Skill imgOfSkill='https://www.pngkey.com/png/detail/222-2224712_react-react-logo-png.png'
                            nameOfSkill='React' descriptOfSkill='Описание React навыка '/>

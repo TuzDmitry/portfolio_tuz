@@ -1,13 +1,13 @@
 .footer {
-    height: 300px;
-    background: #23ff7a;
+    min-height: 30vw;
+    background: #252527;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container {
-    border: 1px solid;
+    /*border: 1px solid;*/
     width: 80%;
     height: 60%;
     display: flex;
@@ -17,8 +17,9 @@
 }
 
 .social {
+    margin-top: 50px;
     width: 260px;
-    border: 1px solid;
+    /*border: 1px solid;*/
     display: flex;
     justify-content: space-between;
 }
@@ -29,9 +30,7 @@
 }
 
 .copyright {
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
+
 }
 
 @media only screen and (max-width: 520px) {

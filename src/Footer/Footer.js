@@ -5,7 +5,10 @@ function Footer() {
     return (
         <div className={styles.footer}>
             <div className={styles.container}>
-                <div className='titleBlock'>Туз Дмитрий</div>
+                <div className='titleBlock'>
+                    <h2>Туз Дмитрий</h2>
+                    <div className="module-line"></div>
+                </div>
                 <div className={styles.social}>
                     <a href=""><img src="https://toy-boy.ru/images/vkontakte.png" alt="VK"/></a>
                     <a href=""><img
