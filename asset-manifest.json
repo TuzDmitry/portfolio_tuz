@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio_tuz/static/css/main.8637e7f1.chunk.css",
-    "main.js": "/portfolio_tuz/static/js/main.5105c641.chunk.js",
-    "main.js.map": "/portfolio_tuz/static/js/main.5105c641.chunk.js.map",
+    "main.css": "/portfolio_tuz/static/css/main.69c511c3.chunk.css",
+    "main.js": "/portfolio_tuz/static/js/main.cd583e00.chunk.js",
+    "main.js.map": "/portfolio_tuz/static/js/main.cd583e00.chunk.js.map",
     "runtime-main.js": "/portfolio_tuz/static/js/runtime-main.ae29e335.js",
     "runtime-main.js.map": "/portfolio_tuz/static/js/runtime-main.ae29e335.js.map",
     "static/js/2.dda25eda.chunk.js": "/portfolio_tuz/static/js/2.dda25eda.chunk.js",
     "static/js/2.dda25eda.chunk.js.map": "/portfolio_tuz/static/js/2.dda25eda.chunk.js.map",
     "index.html": "/portfolio_tuz/index.html",
-    "precache-manifest.5c0887b57ceb8fe4fe9b171d8fec5df5.js": "/portfolio_tuz/precache-manifest.5c0887b57ceb8fe4fe9b171d8fec5df5.js",
+    "precache-manifest.503ae0691c0dfc14d32fd15f61c02942.js": "/portfolio_tuz/precache-manifest.503ae0691c0dfc14d32fd15f61c02942.js",
     "service-worker.js": "/portfolio_tuz/service-worker.js",
-    "static/css/main.8637e7f1.chunk.css.map": "/portfolio_tuz/static/css/main.8637e7f1.chunk.css.map",
+    "static/css/main.69c511c3.chunk.css.map": "/portfolio_tuz/static/css/main.69c511c3.chunk.css.map",
     "static/js/2.dda25eda.chunk.js.LICENSE.txt": "/portfolio_tuz/static/js/2.dda25eda.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ae29e335.js",
     "static/js/2.dda25eda.chunk.js",
-    "static/css/main.8637e7f1.chunk.css",
-    "static/js/main.5105c641.chunk.js"
+    "static/css/main.69c511c3.chunk.css",
+    "static/js/main.cd583e00.chunk.js"
   ]
 }
