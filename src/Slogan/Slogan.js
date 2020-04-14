@@ -9,7 +9,7 @@ function Slogan() {
                 <h2 className={styles.advantages}>Рассматриваю вариант удаленной работы</h2>
                 <div className="module-line"></div>
             </div>
-            <button className="btn">Нанять меня</button>
+            <button className="btnBlock">Нанять меня</button>
         </div>
     </div>
   );
