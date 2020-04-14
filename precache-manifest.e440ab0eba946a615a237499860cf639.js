@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd3245234e40281d8b63abca2e1e376e",
+    "revision": "1d23565802fdaf84ed8fabb35f98bc85",
     "url": "/portfolio_tuz/index.html"
   },
   {
-    "revision": "d1b53a460ae45c952e57",
-    "url": "/portfolio_tuz/static/css/main.69c511c3.chunk.css"
+    "revision": "d622a07eb8eee703abe6",
+    "url": "/portfolio_tuz/static/css/main.7fb63f71.chunk.css"
   },
   {
     "revision": "4960bd9cd78871e2ae8d",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio_tuz/static/js/2.dda25eda.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d1b53a460ae45c952e57",
-    "url": "/portfolio_tuz/static/js/main.cd583e00.chunk.js"
+    "revision": "d622a07eb8eee703abe6",
+    "url": "/portfolio_tuz/static/js/main.e0e92539.chunk.js"
   },
   {
     "revision": "e97b631bb12a6dd0e9b3",
