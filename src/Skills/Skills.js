@@ -4,7 +4,7 @@ import Skill from "./Skill/Skill";
 
 function Skills() {
     return (
-        <div className={styles.skills}>
+        <div id='skills' className={styles.skills}>
             <div className={styles.container}>
                 <div className='titleBlock'>
                     <h2>My Skills</h2>

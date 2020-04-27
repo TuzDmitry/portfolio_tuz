@@ -20,18 +20,7 @@
     text-transform: capitalize;
     text-align: center;
 }
-.advantages::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -15px;
-    height: 1px;
-    width: 180px;
-    z-index: 0;
-    background: #4e93e6;
-    box-sizing: border-box;
-}
+
 @media only screen and (max-width: 850px) {
     .slogan {
         min-height: 100vh;
