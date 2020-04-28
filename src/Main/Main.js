@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from './Main.module.css';
+import myMainPhoto from '../assets/images/my_main_photo.jpg'
+
 
 function Main() {
   return (
@@ -11,7 +13,7 @@ function Main() {
                 <h1>Я React разработчик</h1>
             </div>
             <div className={styles.myPhotoContainer}>
-                <img src="https://filmy.by/wp-content/uploads/2019/10/david-duchovny-filmy-by.jpg" alt=""/>
+                <img src={myMainPhoto} alt="Here you could see my photo"/>
             </div>
         </div>
     </div>
