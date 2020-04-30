@@ -18,7 +18,7 @@ h2 {
     height: 3px;
     width: 120px;
     z-index: 0;
-    background: #4e93e6;
+    background: #ffd800;
     box-sizing: border-box;
 }
 
@@ -57,7 +57,7 @@ h3{
     height: 8px;
     width: 50%;
     z-index: -1;
-    background: #4e93e6;
+    background: #ffd800;
     box-sizing: border-box;
     margin: 0 auto;
     transition-duration: 0.4s;
@@ -93,7 +93,7 @@ h3{
     height: 0px;
     width: 100%;
     z-index: -1;
-    background: #4e93e6;
+    background: #ffd800;
     box-sizing: border-box;
     transition-duration: 0.4s;
 }

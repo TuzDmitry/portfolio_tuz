@@ -12,8 +12,10 @@ function Main() {
                 <div>I am <span className={styles.firstLastName}> Dmitry Tuz</span></div>
                 <h1>Я React разработчик</h1>
             </div>
-            <div className={styles.myPhotoContainer}>
-                <img src={myMainPhoto} alt="Here you could see my photo"/>
+            <div>
+                <div className={styles.myPhotoContainer}>
+                    <img src={myMainPhoto} alt="Here you could see my photo"/>
+                </div>
             </div>
         </div>
     </div>
