@@ -22,6 +22,8 @@ function Projects() {
             </div>
             <div className={styles.projectsContainer}>
                 <Project nameOfProject='Project1' style={imgOne}  descriptOfProject='Описание Project1' pictOfProject='https://avatars.mds.yandex.net/get-altay/247136/2a0000015b861c38531a35339a249d869579/XXL'/>
+                <Project nameOfProject='Project1' style={imgOne}  descriptOfProject='Описание Project1' pictOfProject='https://avatars.mds.yandex.net/get-altay/247136/2a0000015b861c38531a35339a249d869579/XXL'/>
+                <Project nameOfProject='Project1' style={imgOne}  descriptOfProject='Описание Project1' pictOfProject='https://avatars.mds.yandex.net/get-altay/247136/2a0000015b861c38531a35339a249d869579/XXL'/>
                 <Project nameOfProject='Project2' style={imgSecond} descriptOfProject='Описание Project2' />
             </div>
         </div>

@@ -1,5 +1,7 @@
 .project {
-    width: 45%;
+    /*border: 1px solid red;*/
+    /*width: 33%;*/
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -12,10 +14,14 @@
 
 .image {
     background: url(https://proektnareklamu.ru/images/1.jpg);
-    background-size: cover;
+    /*background-size: cover;*/
     display: flex;
-    width: 100%;
-    height: 100%;
+    width: 450px;
+    height: 300px;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*padding-top: 50%;*/
+    /*padding-bottom: 50%;*/
 }
 
 .image button {
@@ -36,6 +42,53 @@
     /*align-self: stretch;*/
 }
 
+@media only screen and (max-width: 1700px) {
+    .project {
+        width: 45%;}
+
+    .image {
+        width: 450px;
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 1283px) {
+    .project {
+        width: 45%;}
+
+    .image {
+        width: 345px;
+        height: 230px;
+    }
+}
+/*@media only screen and (max-width: 1600px) {*/
+/*    .project {*/
+/*        border: 1px solid red;*/
+/*        width: 33%;*/
+/*    }*/
+/*}*/
+
+@media only screen and (max-width: 992px) {
+    .project {
+        width: 100%;
+        height: 50vmax;
+    }
+    .image {
+        width: 600px;
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .project {
+        width: 100%;
+        height: 50vmax;
+    }
+    .image {
+        width: 390px;
+        height: 260px;
+    }
+}
+
 @media only screen and (max-width: 520px) {
     .project {
         width: 100%;
@@ -47,6 +100,7 @@
     }
 
     .image {
-        height: 100vw;
+        height: 120vw;
+        width: 80vw;
     }
 }
