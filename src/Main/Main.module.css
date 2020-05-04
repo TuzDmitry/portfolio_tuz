@@ -1,6 +1,6 @@
 
 .main {
-    height: 100vh;
+    min-height: 100vh;
     background: #1f1f20;
     display: flex;
     justify-content: center;
@@ -81,8 +81,11 @@
     border: 5px solid #ffd800;
 }
 
-@media only screen and (max-width: 800px) {
-
+@media only screen and (max-height: 635px) {
+    .main {
+        padding-top: 85px;
+        padding-bottom: 50px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
