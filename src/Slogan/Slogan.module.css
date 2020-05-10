@@ -17,7 +17,6 @@
 
 .advantages{
     text-transform: capitalize;
-    text-align: center;
 }
 
 @media only screen and (max-width: 850px) {
@@ -25,7 +24,8 @@
 
 @media only screen and (max-width: 520px) {
     .slogan {
-        min-height: 75vh;
+        padding: 70px 0px;
+        /*min-height: 75vh;*/
         display: flex;
         justify-content: center;
         align-items: center;

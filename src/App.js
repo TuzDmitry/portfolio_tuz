@@ -8,12 +8,16 @@ import Slogan from "./Slogan/Slogan";
 import Contacts from "./Contacts/Contacts";
 import Footer from "./Footer/Footer";
 import './App.css';
+// import state from "./state";
 
-function App() {
+
+
+const App=()=> {
   return (
     <div className="App">
       <div className="portfolio">
-          <Header />
+          {/*<Header state={state.headerBlock}/>*/}
+          <Header/>
           <Main/>
           <Skills />
           <Projects />

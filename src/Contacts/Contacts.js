@@ -13,7 +13,7 @@ function Contacts() {
                     <input className="formcontrol" type="text" value="Name"/>
                     <input className="formcontrol" type="text" value="E-mail"/>
                     <textarea className="form-control" name="" id="" cols="30" rows="5"  value="Your message"></textarea>
-                    <button className="btnBlock">Sand Message</button>
+                    <button className="btnBlock">Send Message</button>
                 </form>
             </div>
         </div>

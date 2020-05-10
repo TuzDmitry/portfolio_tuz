@@ -4,6 +4,7 @@
     min-width: 320px;
 }
 .titleBlock {
+    text-align: center;
 }
 h2 {
     /*position:relative;*/
