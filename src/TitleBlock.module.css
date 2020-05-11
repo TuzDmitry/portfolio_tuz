@@ -1,0 +1,20 @@
+.moduleLine {
+    margin: 30px auto;
+    height: 3px;
+    width: 120px;
+    z-index: 0;
+    background: #ffd800;
+    box-sizing: border-box;
+}
+
+
+.titleBlock {
+    text-align: center;
+}
+
+@media only screen and (max-width: 520px) {
+    .titleBlock {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+}

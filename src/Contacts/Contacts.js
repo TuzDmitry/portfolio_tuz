@@ -1,19 +1,20 @@
 import React from 'react';
 import styles from './Contacts.module.css';
+import TitleBlock from "../TitleBlock";
+import Btn from "../Button/Btn";
 
-function Contacts() {
+function Contacts(props) {
     return (
         <div id='contacts' className={styles.contacts}>
             <div className={styles.container}>
-                <div className='titleBlock'>
-                    <h2>Contact Me</h2>
-                    <div className="module-line"></div>
-                </div>
+                <TitleBlock titleName={props.state.titleName}/>
+
                 <form className={styles.form} action="">
                     <input className="formcontrol" type="text" value="Name"/>
                     <input className="formcontrol" type="text" value="E-mail"/>
                     <textarea className="form-control" name="" id="" cols="30" rows="5"  value="Your message"></textarea>
-                    <button className="btnBlock">Send Message</button>
+
+                    <Btn btn={props.state.button}/>
                 </form>
             </div>
         </div>

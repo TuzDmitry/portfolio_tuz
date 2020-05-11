@@ -1,29 +1,32 @@
 import React from 'react';
 import styles from './Skills.module.css';
 import Skill from "./Skill/Skill";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faCss3} from '@fortawesome/free-brands-svg-icons'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faCss3, faReact} from '@fortawesome/free-brands-svg-icons'
 import {} from '@fortawesome/free-solid-svg-icons'
 import icoSkills from '../assets/images/Html5_Css3_JS_React_Angular_Vue.svg'
 import {faCss3Alt} from "@fortawesome/free-brands-svg-icons/faCss3Alt";
+import TitleBlock from "../TitleBlock";
 
-function Skills() {
+const Skills = (props) => {
+
+
+    let skills=props.state.skillItems.map(skill=><Skill key={skill.id}
+                                                        imgOfSkill={skill.srcLogo}
+                                                        nameOfSkill={skill.skillName}
+                                                        descriptOfSkill={skill.description}/>)
+
     return (
         <div id='skills' className={styles.skills}>
             <div className={styles.container}>
-                <div className='titleBlock'>
-                    <h2>My Skills</h2>
-                    <div className="module-line"></div>
-                    {/*<FontAwesomeIcon icon={faCss3}/>*/}
-                    {/*<FontAwesomeIcon icon={faCss3Alt}/>*/}
-                </div>
+                <TitleBlock titleName={props.state.titleName}/>
                 <div className={styles.skillsContainer}>
-                    <Skill imgOfSkill='https://www.pngkey.com/png/detail/222-2224712_react-react-logo-png.png'
-                           nameOfSkill='React' descriptOfSkill='Описание React навыка ddddddddddddddddddd ddddddddddddddddddddd ddddddddddddd dddddddddd dddd'/>
-                    <Skill  imgOfSkill='https://static.tildacdn.com/tild6632-3133-4338-a162-356131643864/59f0515c722dc8122853.png'
-                            nameOfSkill='HTML5' descriptOfSkill='Описание HTML5 навыка ' />
-                    <Skill  imgOfSkill='https://upread.ru/img/art488-1.png'
-                            nameOfSkill='CSS3' descriptOfSkill='Описание CSS3 навыка ' />
+
+                    {skills}
+
+                    {/*<Skill imgOfSkill={props.state.skillItems[0].srcLogo}*/}
+                    {/*       nameOfSkill={props.state.skillItems[0].skillName}*/}
+                    {/*       descriptOfSkill={props.state.skillItems[0].description}/>*/}
                 </div>
             </div>
         </div>

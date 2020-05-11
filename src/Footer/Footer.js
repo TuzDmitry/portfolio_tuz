@@ -1,14 +1,18 @@
 import React from 'react';
 import styles from './Footer.module.css';
+import TitleBlock from "../TitleBlock";
+import ava from "../assets/images/my_main_photo.jpg";
 
-function Footer() {
+const Footer=(props)=> {
+    const imgSecond = {
+        backgroundImage: `url('${ava}')`,
+        // transform: `translate(100px, 100px)`
+    };
     return (
         <div className={styles.footer}>
             <div className={styles.container}>
-                <div className='titleBlock'>
-                    <h2>Туз Дмитрий</h2>
-                    <div className="module-line"></div>
-                </div>
+
+                <TitleBlock titleName={props.state.titleName}/>
                 <div className={styles.social}>
                     <a href=""><img src="https://toy-boy.ru/images/vkontakte.png" alt="VK"/></a>
                     <a href=""><img
@@ -18,7 +22,7 @@ function Footer() {
                         src="https://www.clipartmax.com/png/full/62-624588_linkedin-help-linkedin-logo-2018-png.png"
                         alt="Linkedin"/></a>
                 </div>
-                <div className={styles.copyright}>© 2020, All Rights Reserved</div>
+                <div className={styles.copyright}>{props.state.copyrightText}</div>
             </div>
         </div>
     );

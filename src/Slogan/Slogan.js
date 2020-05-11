@@ -1,15 +1,20 @@
 import React from 'react';
 import styles from './Slogan.module.css';
+import TitleBlock from "../TitleBlock";
+import Btn from "../Button/Btn";
 
-function Slogan() {
+const Slogan=(props)=> {
+    let st={
+        // textTransform: Capitalize,
+    }
+
   return (
     <div className={styles.slogan}>
         <div className={styles.container}>
-            <div className='titleBlock'>
-                <h2 className={styles.advantages}>Рассматриваю вариант удаленной работы</h2>
-                <div className="module-line"></div>
-            </div>
-            <button className="btnBlock">Нанять меня</button>
+
+            <TitleBlock style={st} titleName={props.state.titleName}/>
+            {/*<button className="btnBlock">Нанять меня</button>*/}
+            <Btn btn={props.state.button}/>
         </div>
     </div>
   );

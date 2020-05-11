@@ -1,0 +1,61 @@
+
+.btnBlock, .btnProject{
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    padding: 7px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    outline: none;
+    max-width: 170px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    z-index: 0;}
+
+.btnBlock{
+    background: no-repeat;
+}
+.btnProject{}
+
+.btnBlock::before, .btnProject::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0px;
+    z-index: -1;
+    background: #ffd800;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+}
+
+.btnBlock::before{
+    height: 8px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btnBlock:hover::before{
+    height: 40px;
+    width: 100%;
+}
+.btnBlock:active::before{
+    background-color: red;
+    height: 30px;
+    width: 80%;
+}
+
+.btnProject:hover::before{
+    height: 8px;
+    width: 100%;
+}
+
+.btnProject:active::before{
+    height: 100%;
+    width: 100%;
+}

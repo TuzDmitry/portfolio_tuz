@@ -1,34 +1,38 @@
 import React from 'react';
 import styles from './Projects.module.css';
 import Project from "./Project/Project";
+import TitleBlock from "../TitleBlock";
 import state from "../state";
 
 import ava from '../assets/images/my_main_photo.jpg'
+
 // import projImgOne from....
 // import projImgSecond from....
 
 
-function Projects() {
-    debugger
+const Projects=(props) =>{
 
     const imgOne = {
-        // backgroundImage:'url({a})'
+        // backgroundImage:'url(${a})'
     };
-    const imgSecond = {
-        backgroundImage: 'url({projImgSecond})',
-    };
+
+    const projects=props.state.projectItems.map(project=><Project key={project.id}
+                                                                  nameOfProject={project.projectName}
+                                                                  urlImg={project.srcImgProject}
+                                                                  state={props.state}
+                                                                  descriptOfProject={project.description} />)
+
   return (
     <div id='projects' className={styles.projects}>
         <div className={styles.container}>
-            <div className='titleBlock'>
-                <h2>My Works</h2>
-                <div className="module-line"></div>
-            </div>
+            <TitleBlock titleName={props.state.titleName}/>
+
             <div className={styles.projectsContainer}>
-                <Project nameOfProject='Project1' style={imgOne}  descriptOfProject='Описание Project1' pictOfProject='https://avatars.mds.yandex.net/get-altay/247136/2a0000015b861c38531a35339a249d869579/XXL'/>
-                <Project nameOfProject='Project2' style={imgOne}  descriptOfProject='Описание Project1' pictOfProject='https://avatars.mds.yandex.net/get-altay/247136/2a0000015b861c38531a35339a249d869579/XXL'/>
-                <Project nameOfProject='Project3' style={imgOne}  descriptOfProject='Описание Project1' pictOfProject='https://avatars.mds.yandex.net/get-altay/247136/2a0000015b861c38531a35339a249d869579/XXL'/>
-                <Project nameOfProject='Project4' style={imgSecond} descriptOfProject='Описание Project2' />
+                {projects}
+
+                {/*<Project nameOfProject={props.state.projectItems[3].projectName} */}
+                {/*         urlImg={props.state.projectItems[3].srcImgProject}  */}
+                {/*         descriptOfProject={props.state.projectItems[3].description} />*/}
             </div>
         </div>
     </div>

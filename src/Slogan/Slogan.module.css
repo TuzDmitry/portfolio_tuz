@@ -15,12 +15,11 @@
     justify-content: space-between;
 }
 
-.advantages{
-    text-transform: capitalize;
-}
+/*.advantages{*/
+/*    text-transform: capitalize;*/
+/*}*/
 
-@media only screen and (max-width: 850px) {
-}
+
 
 @media only screen and (max-width: 520px) {
     .slogan {
