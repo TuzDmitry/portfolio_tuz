@@ -10,9 +10,9 @@ function Contacts(props) {
                 <TitleBlock titleName={props.state.titleName}/>
 
                 <form className={styles.form} action="">
-                    <input className="formcontrol" type="text" value="Name"/>
-                    <input className="formcontrol" type="text" value="E-mail"/>
-                    <textarea className="form-control" name="" id="" cols="30" rows="5"  value="Your message"></textarea>
+                    <input className="formcontrol" type="text" placeholder="Name" />
+                    <input className="formcontrol" type="text" placeholder="Name" />
+                    <textarea className="form-control" name="" id="" cols="30" rows="5"  placeholder="Your message" ></textarea>
 
                     <Btn btn={props.state.button}/>
                 </form>

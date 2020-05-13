@@ -23,9 +23,14 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .form textarea {
     box-sizing: border-box;
     max-width: 100%;
+}
+
+.form input:focus, .form textarea:focus {
+    outline-color: #ffd800;
 }
 
 .form button {
@@ -36,7 +41,11 @@
     margin-top: 40px;
     align-self: center;
 }
-.form input{ height: 30px;}
+
+.form input {
+    height: 30px;
+}
+
 .form input, .form textarea {
     margin-bottom: 15px;
     background: #252527;
@@ -60,6 +69,7 @@
         /*min-height: 80vh;*/
     }
 }
+
 @media only screen and (max-width: 850px)and (min-height: 750px) {
     .contacts {
         max-height: 90vh;
@@ -74,6 +84,7 @@
     .contacts {
         padding: 70px 0;
     }
+
     .container {
         /*width: 95%;*/
     }

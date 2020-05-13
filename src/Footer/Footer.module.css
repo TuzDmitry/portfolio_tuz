@@ -18,10 +18,9 @@
 
 .social {
     margin-top: 50px;
-    width: 260px;
-    /*border: 1px solid;*/
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .social img {
@@ -33,6 +32,7 @@
 .copyright {
 
 }
+
 
 @media only screen and (max-width: 520px) {
     .container {

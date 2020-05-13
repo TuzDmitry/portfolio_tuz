@@ -17,7 +17,7 @@ const App=()=> {
     <div className="App">
       <div className="portfolio">
           {/*<Header state={state.headerBlock}/>*/}
-          <Header/>
+          <Header state={state.headerBlock}/>
           <Main state={state.mainBlock}/>
           <Skills state={state.skillsBlock}/>
           <Projects state={state.projectsBlock}/>
