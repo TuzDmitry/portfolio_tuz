@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9895ab74e3b1cbed0c3455d0bdfd335a",
+    "revision": "5bbf3b78edbb197545840d810287a6f9",
     "url": "/portfolio_tuz/index.html"
   },
   {
-    "revision": "5b81a694d64b47522584",
-    "url": "/portfolio_tuz/static/css/main.e4d0f7c3.chunk.css"
+    "revision": "3cee4d42c6eb60ef4508",
+    "url": "/portfolio_tuz/static/css/main.a8d69321.chunk.css"
   },
   {
-    "revision": "5c4f0bf5671fd3b1fb98",
-    "url": "/portfolio_tuz/static/js/2.595472af.chunk.js"
+    "revision": "744740b624c17f841514",
+    "url": "/portfolio_tuz/static/js/2.9f093095.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/portfolio_tuz/static/js/2.595472af.chunk.js.LICENSE.txt"
+    "url": "/portfolio_tuz/static/js/2.9f093095.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5b81a694d64b47522584",
-    "url": "/portfolio_tuz/static/js/main.06a24756.chunk.js"
+    "revision": "3cee4d42c6eb60ef4508",
+    "url": "/portfolio_tuz/static/js/main.106dca18.chunk.js"
   },
   {
     "revision": "e97b631bb12a6dd0e9b3",
     "url": "/portfolio_tuz/static/js/runtime-main.ae29e335.js"
-  },
-  {
-    "revision": "1c088c20ad34b47ae384696ef3ebdcfd",
-    "url": "/portfolio_tuz/static/media/Html5_Css3_JS_React_Angular_Vue.1c088c20.svg"
   },
   {
     "revision": "ddbb6e6fa9d6a392b48b057f44933398",
@@ -62,5 +58,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "84331f10b4148ffb813cdafc281b1469",
     "url": "/portfolio_tuz/static/media/react.84331f10.png"
+  },
+  {
+    "revision": "c4cc93c8f3e8a64e7490f2a78f77cac8",
+    "url": "/portfolio_tuz/static/media/viber.c4cc93c8.png"
+  },
+  {
+    "revision": "afabbc7ea44a782f9e112f283c767eea",
+    "url": "/portfolio_tuz/static/media/vk.afabbc7e.png"
   }
 ]);
