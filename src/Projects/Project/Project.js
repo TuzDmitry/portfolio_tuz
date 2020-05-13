@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Project.module.css';
-import Btn from "../../Button/Btn";
+import Btn from "../../common/Button/Btn";
 
 const Project = (props) => {
     const urlImg = {

@@ -1,4 +1,3 @@
-
 import ava from './assets/images/my_main_photo.jpg'
 
 
@@ -11,6 +10,12 @@ import proj1 from './assets/images/project_1.jpg'
 import proj2 from './assets/images/project_2.jpg'
 import proj3 from './assets/images/project_3.jpg'
 import proj4 from './assets/images/project_4.jpg'
+
+import vk from './assets/images/socials/vk.png'
+import google from './assets/images/socials/google.png'
+import In from './assets/images/socials/linkedin.png'
+import telegtam from './assets/images/socials/telegram.png'
+import viber from './assets/images/socials/viber.png'
 
 let state = {
     headerBlock: {
@@ -108,18 +113,35 @@ let state = {
         titleName: 'Туз Дмитрий',
         copyrightText: '© 2020, All Rights Reserved',
         socialContacts: [
-            {id: '1', urladress: 'vk.com', srcLogo: 'https://toy-boy.ru/images/vkontakte.png', altText: 'VK'},
+            {
+                id: '1',
+                urladress: 'https://vk.com/',
+                srcLogo: vk,
+                altText: 'VK'
+            },
             {
                 id: '2',
-                urladress: 'facebook.com',
-                srcLogo: 'https://toy-boy.ru/images/vkontakte.png',
-                altText: 'FaceBook'
+                urladress: 'linkedin.com',
+                srcLogo: In,
+                altText: 'Linkedin'
             },
             {
                 id: '3',
-                urladress: 'linkedin.com',
-                srcLogo: 'https://www.clipartmax.com/png/full/62-624588_linkedin-help-linkedin-logo-2018-png.png',
-                altText: 'Linkedin'
+                urladress: 'viber.com',
+                srcLogo: viber,
+                altText: 'viber'
+            },
+            {
+                id: '4',
+                urladress: 'telegram.com',
+                srcLogo: telegtam,
+                altText: 'telegtam'
+            },
+            {
+                id: '5',
+                urladress: 'google.com',
+                srcLogo: google,
+                altText: 'google'
             },
         ]
     },

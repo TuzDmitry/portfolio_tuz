@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Projects.module.css';
 import Project from "./Project/Project";
-import TitleBlock from "../TitleBlock";
+import TitleBlock from "../common/TitleBlock/TitleBlock";
 import state from "../state";
 
 import ava from '../assets/images/my_main_photo.jpg'

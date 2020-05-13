@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Contacts.module.css';
-import TitleBlock from "../TitleBlock";
-import Btn from "../Button/Btn";
+import TitleBlock from "../common/TitleBlock/TitleBlock";
+import Btn from "../common/Button/Btn";
 
 function Contacts(props) {
     return (

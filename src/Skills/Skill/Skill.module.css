@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
 }
 
 .skillName {
@@ -25,7 +26,8 @@ font-weight: 400;
 @media only screen and (max-width: 992px) {
     .skill {
         flex: 0 0 50%;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
+        margin-top: 40px;
     }
 }
 @media only screen and (max-width: 800px) {
@@ -39,7 +41,7 @@ font-weight: 400;
 @media only screen and (max-width: 520px) {
     .skill {
         flex: 0 0 100%;
-        /*width: 100%;*/
+        margin-bottom: 30px;
 
     }
     .skill img {

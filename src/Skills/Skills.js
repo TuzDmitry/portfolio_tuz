@@ -4,9 +4,8 @@ import Skill from "./Skill/Skill";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faCss3, faReact} from '@fortawesome/free-brands-svg-icons'
 import {} from '@fortawesome/free-solid-svg-icons'
-import icoSkills from '../assets/images/Html5_Css3_JS_React_Angular_Vue.svg'
 import {faCss3Alt} from "@fortawesome/free-brands-svg-icons/faCss3Alt";
-import TitleBlock from "../TitleBlock";
+import TitleBlock from "../common/TitleBlock/TitleBlock";
 
 const Skills = (props) => {
 
