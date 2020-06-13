@@ -1,5 +1,6 @@
 
 .main {
+    position: relative;
     min-height: 100vh;
     background: #1f1f20;
     display: flex;
@@ -15,6 +16,7 @@
     justify-content: space-around;
     width: 80%;
     align-items: center;
+    z-index: 1;
 }
 
 .greeting {

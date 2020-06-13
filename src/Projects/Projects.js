@@ -2,19 +2,8 @@ import React from 'react';
 import styles from './Projects.module.css';
 import Project from "./Project/Project";
 import TitleBlock from "../common/TitleBlock/TitleBlock";
-import state from "../state";
-
-import ava from '../assets/images/my_main_photo.jpg'
-
-// import projImgOne from....
-// import projImgSecond from....
-
 
 const Projects=(props) =>{
-
-    const imgOne = {
-        // backgroundImage:'url(${a})'
-    };
 
     const projects=props.state.projectItems.map(project=><Project key={project.id}
                                                                   nameOfProject={project.projectName}
@@ -29,10 +18,6 @@ const Projects=(props) =>{
 
             <div className={styles.projectsContainer}>
                 {projects}
-
-                {/*<Project nameOfProject={props.state.projectItems[3].projectName} */}
-                {/*         urlImg={props.state.projectItems[3].srcImgProject}  */}
-                {/*         descriptOfProject={props.state.projectItems[3].description} />*/}
             </div>
         </div>
     </div>

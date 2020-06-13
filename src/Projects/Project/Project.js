@@ -10,9 +10,7 @@ const Project = (props) => {
 
     return (
         <div className={styles.project}>
-            {/*<div className={styles.image}>*/}
             <div className={styles.image} style={urlImg}>
-                {/*<button className="btn">Смотреть</button>*/}
                 <Btn btn={props.state.button}/>
             </div>
             <h3 className={styles.projectName} >{props.nameOfProject}</h3>
