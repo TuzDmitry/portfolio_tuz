@@ -20,7 +20,8 @@ font-weight: 400;
 .skillDescription {
     text-align: center;
     padding-bottom: 20px;
-    align-self: stretch;
+    /*align-self: stretch;*/
+    max-width: 270px;
     margin-bottom: auto;
 }
 @media only screen and (max-width: 992px) {

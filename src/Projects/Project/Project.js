@@ -13,8 +13,8 @@ const Project = (props) => {
             <div className={styles.image} style={urlImg}>
                 <Btn btn={props.state.button}/>
             </div>
-            <h3 className={styles.projectName} >{props.nameOfProject}</h3>
-            <div className={styles.projectDescription} >{props.descriptOfProject}</div>
+            <h3 className={styles.projectName}>{props.nameOfProject}</h3>
+            <div className={styles.projectDescription}>{props.descriptOfProject}</div>
         </div>
     );
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Projects.module.css';
 import Project from "./Project/Project";
 import TitleBlock from "../common/TitleBlock/TitleBlock";
+import Fade from "react-reveal//Fade";
 
 const Projects=(props) =>{
 
@@ -13,13 +14,15 @@ const Projects=(props) =>{
 
   return (
     <div id='projects' className={styles.projects}>
-        <div className={styles.container}>
-            <TitleBlock titleName={props.state.titleName}/>
+        <Fade bottom>
+            <div className={styles.container}>
+                <TitleBlock titleName={props.state.titleName}/>
 
-            <div className={styles.projectsContainer}>
-                {projects}
+                <div className={styles.projectsContainer}>
+                    {projects}
+                </div>
             </div>
-        </div>
+        </Fade>
     </div>
   );
 }

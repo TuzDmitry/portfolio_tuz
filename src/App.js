@@ -9,15 +9,12 @@ import Contacts from "./Contacts/Contacts";
 import Footer from "./Footer/Footer";
 import './App.css';
 import state from "./state";
-import Particles from "react-particles-js";
 
 
 
 const App = () => {
     return (
         <div className="portfolio">
-
-
             <Header state={state.headerBlock}/>
             <Main state={state.mainBlock}/>
             <Skills state={state.skillsBlock}/>

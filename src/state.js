@@ -4,7 +4,9 @@ import ava from './assets/images/my_main_photo.jpg'
 import htmlIco from './assets/images/html.png'
 import cssIco from './assets/images/css.png'
 import reactIco from './assets/images/react.png'
+import reduxIco from './assets/images/redux.png'
 import jsIco from './assets/images/js.png'
+import typescriptIco from './assets/images/typescript.png'
 
 import proj1 from './assets/images/project_1.jpg'
 import proj2 from './assets/images/project_2.jpg'
@@ -39,25 +41,37 @@ let state = {
             {
                 id: 0,
                 skillName: 'React',
-                description: 'Описание React навыка',
+                description: 'class & function components, life cycle methods, HOC, HOOK, axios, ref',
                 srcLogo: reactIco
             },
             {
                 id: 1,
-                skillName: 'HTML',
-                description: 'Описание HTML навыка',
-                srcLogo: htmlIco
+                skillName: 'Redux',
+                description: 'combineReducers, reducer, dispatch, action, provider, connect, react-router-dom, redux-thunk;',
+                srcLogo: reduxIco
             },
             {
                 id: 2,
-                skillName: 'CSS',
-                description: 'Описание CSS навыка',
-                srcLogo: cssIco
+                skillName: 'TypeScript',
+                description: 'typing props, creating Interfaces/Types, generics;',
+                srcLogo: typescriptIco
             },
             {
                 id: 3,
+                skillName: 'HTML',
+                description: 'tags, atributes, forms',
+                srcLogo: htmlIco
+            },
+            {
+                id: 4,
+                skillName: 'CSS',
+                description: 'flex, grid, media queries, animation',
+                srcLogo: cssIco
+            },
+            {
+                id: 5,
                 skillName: 'JS',
-                description: 'Описание JS навыка',
+                description: 'es5 / es6; Arrow functions, array methods, spread, destructuring, promise, pure function, localStorage;',
                 srcLogo: jsIco
             }
         ]

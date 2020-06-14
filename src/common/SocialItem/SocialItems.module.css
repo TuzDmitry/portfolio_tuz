@@ -1,0 +1,10 @@
+.socialElement{
+    padding-left: 10px;
+    padding-right: 10px;
+    transition-duration: 500ms;
+}
+
+.socialElement:hover{
+    transform: scale(1.5);
+
+}

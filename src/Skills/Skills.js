@@ -1,11 +1,8 @@
 import React from 'react';
 import styles from './Skills.module.css';
 import Skill from "./Skill/Skill";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faCss3, faReact} from '@fortawesome/free-brands-svg-icons'
-import {} from '@fortawesome/free-solid-svg-icons'
-import {faCss3Alt} from "@fortawesome/free-brands-svg-icons/faCss3Alt";
 import TitleBlock from "../common/TitleBlock/TitleBlock";
+import Fade from "react-reveal//Fade";
 
 const Skills = (props) => {
 
@@ -17,17 +14,14 @@ const Skills = (props) => {
 
     return (
         <div id='skills' className={styles.skills}>
-            <div className={styles.container}>
-                <TitleBlock titleName={props.state.titleName}/>
-                <div className={styles.skillsContainer}>
-
-                    {skills}
-
-                    {/*<Skill imgOfSkill={props.state.skillItems[0].srcLogo}*/}
-                    {/*       nameOfSkill={props.state.skillItems[0].skillName}*/}
-                    {/*       descriptOfSkill={props.state.skillItems[0].description}/>*/}
+            <Fade bottom>
+                <div className={styles.container}>
+                    <TitleBlock titleName={props.state.titleName}/>
+                    <div className={styles.skillsContainer}>
+                        {skills}
+                    </div>
                 </div>
-            </div>
+            </Fade>
         </div>
     );
 }

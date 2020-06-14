@@ -13,11 +13,6 @@ const NavMenu = (props) => {
     return (
         <nav className={styles.navMenu}>
             {anchors}
-
-            {/*<a href="#main" className={styles.link}>Главная</a>*/}
-            {/*<a href="#skills" className={styles.link}>Скиллы</a>*/}
-            {/*<a href="#projects" className={styles.link}>Работы</a>*/}
-            {/*<a href="#contacts" className={styles.link}>Контакты</a>*/}
         </nav>
     );
 }

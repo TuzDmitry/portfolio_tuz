@@ -1,16 +1,13 @@
 import React from "react";
+import style from './SocialItems.module.css'
 
 const SocialItem = (props) => {
 
-    let styleA = {
-        paddingLeft: 10,
-        paddingRight: 10,
-    }
-
-
     return (
-        <a style={styleA} href={props.state.urladress}><img src={props.state.srcLogo}
-                                                                     alt={props.state.altText}/></a>
+            <a href={props.state.urladress} className={style.socialElement}>
+                <img src={props.state.srcLogo}
+                     alt={props.state.altText}/>
+            </a>
     )
 }
 export default SocialItem
