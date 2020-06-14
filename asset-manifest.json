@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio_tuz/static/css/main.a8d69321.chunk.css",
-    "main.js": "/portfolio_tuz/static/js/main.106dca18.chunk.js",
-    "main.js.map": "/portfolio_tuz/static/js/main.106dca18.chunk.js.map",
+    "main.css": "/portfolio_tuz/static/css/main.d4ebd95f.chunk.css",
+    "main.js": "/portfolio_tuz/static/js/main.05a565a1.chunk.js",
+    "main.js.map": "/portfolio_tuz/static/js/main.05a565a1.chunk.js.map",
     "runtime-main.js": "/portfolio_tuz/static/js/runtime-main.ae29e335.js",
     "runtime-main.js.map": "/portfolio_tuz/static/js/runtime-main.ae29e335.js.map",
-    "static/js/2.9f093095.chunk.js": "/portfolio_tuz/static/js/2.9f093095.chunk.js",
-    "static/js/2.9f093095.chunk.js.map": "/portfolio_tuz/static/js/2.9f093095.chunk.js.map",
+    "static/js/2.a27c6ea0.chunk.js": "/portfolio_tuz/static/js/2.a27c6ea0.chunk.js",
+    "static/js/2.a27c6ea0.chunk.js.map": "/portfolio_tuz/static/js/2.a27c6ea0.chunk.js.map",
     "index.html": "/portfolio_tuz/index.html",
-    "precache-manifest.391853e0871f1882fa720a545e2c4cd0.js": "/portfolio_tuz/precache-manifest.391853e0871f1882fa720a545e2c4cd0.js",
+    "precache-manifest.f3d2d520b5a6ead03b1a062d23f5124f.js": "/portfolio_tuz/precache-manifest.f3d2d520b5a6ead03b1a062d23f5124f.js",
     "service-worker.js": "/portfolio_tuz/service-worker.js",
-    "static/css/main.a8d69321.chunk.css.map": "/portfolio_tuz/static/css/main.a8d69321.chunk.css.map",
-    "static/js/2.9f093095.chunk.js.LICENSE.txt": "/portfolio_tuz/static/js/2.9f093095.chunk.js.LICENSE.txt",
+    "static/css/main.d4ebd95f.chunk.css.map": "/portfolio_tuz/static/css/main.d4ebd95f.chunk.css.map",
+    "static/js/2.a27c6ea0.chunk.js.LICENSE.txt": "/portfolio_tuz/static/js/2.a27c6ea0.chunk.js.LICENSE.txt",
     "static/media/css.png": "/portfolio_tuz/static/media/css.ddbb6e6f.png",
     "static/media/html.png": "/portfolio_tuz/static/media/html.1894126b.png",
     "static/media/js.png": "/portfolio_tuz/static/media/js.35b5cbd5.png",
@@ -21,13 +21,14 @@
     "static/media/project_3.jpg": "/portfolio_tuz/static/media/project_3.3dcdfcdd.jpg",
     "static/media/project_4.jpg": "/portfolio_tuz/static/media/project_4.0d5b0438.jpg",
     "static/media/react.png": "/portfolio_tuz/static/media/react.84331f10.png",
+    "static/media/redux.png": "/portfolio_tuz/static/media/redux.803050d1.png",
     "static/media/viber.png": "/portfolio_tuz/static/media/viber.c4cc93c8.png",
     "static/media/vk.png": "/portfolio_tuz/static/media/vk.afabbc7e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ae29e335.js",
-    "static/js/2.9f093095.chunk.js",
-    "static/css/main.a8d69321.chunk.css",
-    "static/js/main.106dca18.chunk.js"
+    "static/js/2.a27c6ea0.chunk.js",
+    "static/css/main.d4ebd95f.chunk.css",
+    "static/js/main.05a565a1.chunk.js"
   ]
 }
