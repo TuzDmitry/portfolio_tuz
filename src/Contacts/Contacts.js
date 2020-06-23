@@ -3,20 +3,21 @@ import styles from './Contacts.module.css';
 import TitleBlock from "../common/TitleBlock/TitleBlock";
 import Btn from "../common/Button/Btn";
 import Fade from "react-reveal//Fade";
-import axios from "axios";
 import {Field, reduxForm} from "redux-form";
+import {tryCatch} from "../dal/api";
 
 function Contacts(props) {
     let sendForm = (formData) => {
         console.log(formData)
-        let {name, email, message} = formData;
-        axios.post('http://localhost:3010/sendformdata',
-            {
-                name,
-                email,
-                message
-            })
-            .then(() => alert('everything is ok'))
+
+        tryCatch(formData)
+        // axios.post('http://localhost:3010/sendformdata',
+        //     {
+        //         name,
+        //         email,
+        //         message
+        //     })
+        //     .then(() => alert('everything is ok'))
     }
 
 
