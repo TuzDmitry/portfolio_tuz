@@ -8,7 +8,7 @@ import Slogan from "./Slogan/Slogan";
 import Contacts from "./Contacts/Contacts";
 import Footer from "./Footer/Footer";
 import './App.css';
-import state from "./state";
+import state from "./business/state";
 
 
 

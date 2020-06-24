@@ -5,6 +5,8 @@ import Btn from "../common/Button/Btn";
 import Fade from "react-reveal//Fade";
 import {Field, reduxForm} from "redux-form";
 import {tryCatch} from "../dal/api";
+import {required} from "../utils/validators";
+import {Input, TextArea} from "../common/FormItems/formElements";
 
 function Contacts(props) {
     let sendForm = (formData) => {
@@ -33,26 +35,30 @@ function Contacts(props) {
 }
 
 const FeedbackForm = (props) => {
+// debugger
     return (
         <form className={styles.form} onSubmit={props.handleSubmit}>
             <Fade bottom>
                 <Field placeholder="Name"
-                       component={'input'}
+                       component={Input}
                        name={'name'}
+                       validate={[required]}
                 />
             </Fade>
             <Fade bottom>
                 <Field placeholder="Email"
-                       component={'input'}
+                       component={Input}
                        name={'email'}
+                       validate={[required]}
                 />
             </Fade>
             <Fade bottom>
                 <Field placeholder="Your message"
-                       component={'textarea'}
+                       component={TextArea}
                        name={'message'}
                        cols="30"
                        rows="5"
+                       validate={[required]}
                 />
             </Fade>
 

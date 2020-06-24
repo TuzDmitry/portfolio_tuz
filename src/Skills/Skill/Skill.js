@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Skill.module.css';
-import RubberBand from 'react-reveal/RubberBand';
 import Pulse from 'react-reveal/Pulse';
 
 const Skill=(props)=> {

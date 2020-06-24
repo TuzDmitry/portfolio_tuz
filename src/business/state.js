@@ -1,23 +1,23 @@
-import ava from './assets/images/my_main_photo.jpg'
+import ava from '../assets/images/my_main_photo.jpg'
 
 
-import htmlIco from './assets/images/html.png'
-import cssIco from './assets/images/css.png'
-import reactIco from './assets/images/react.png'
-import reduxIco from './assets/images/redux.png'
-import jsIco from './assets/images/js.png'
-import typescriptIco from './assets/images/typescript.png'
+import htmlIco from '../assets/images/html.png'
+import cssIco from '../assets/images/css.png'
+import reactIco from '../assets/images/react.png'
+import reduxIco from '../assets/images/redux.png'
+import jsIco from '../assets/images/js.png'
+import typescriptIco from '../assets/images/typescript.png'
 
-import proj1 from './assets/images/project_1.jpg'
-import proj2 from './assets/images/project_2.jpg'
-import proj3 from './assets/images/project_3.jpg'
-import proj4 from './assets/images/project_4.jpg'
+import proj1 from '../assets/images/project_1.jpg'
+import proj2 from '../assets/images/project_2.jpg'
+import proj3 from '../assets/images/project_3.jpg'
+import proj4 from '../assets/images/project_4.jpg'
 
-import vk from './assets/images/socials/vk.png'
-import google from './assets/images/socials/google.png'
-import In from './assets/images/socials/linkedin.png'
-import telegtam from './assets/images/socials/telegram.png'
-import viber from './assets/images/socials/viber.png'
+import vk from '../assets/images/socials/vk.png'
+import google from '../assets/images/socials/google.png'
+import In from '../assets/images/socials/linkedin.png'
+import telegtam from '../assets/images/socials/telegram.png'
+import viber from '../assets/images/socials/viber.png'
 
 let state = {
     headerBlock: {
@@ -135,7 +135,7 @@ let state = {
             },
             {
                 id: '2',
-                urladress: 'linkedin.com',
+                urladress: 'https://www.linkedin.com/in/dmitry-tuz-622a931b0/',
                 srcLogo: In,
                 altText: 'Linkedin'
             },
@@ -147,7 +147,7 @@ let state = {
             },
             {
                 id: '4',
-                urladress: 'telegram.com',
+                urladress: 'https://t.me/Tuz_Dima',
                 srcLogo: telegtam,
                 altText: 'telegtam'
             },
