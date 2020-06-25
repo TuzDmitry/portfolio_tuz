@@ -10,6 +10,7 @@
 }
 
 .image {
+    z-index: 0;
     background-size: cover;
     display: flex;
     width: 450px;
@@ -17,6 +18,7 @@
 }
 
 .image:hover {
+    z-index: 0 !important;
     filter: brightness(60%);
 }
 

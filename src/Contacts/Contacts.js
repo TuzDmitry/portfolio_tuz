@@ -4,22 +4,17 @@ import TitleBlock from "../common/TitleBlock/TitleBlock";
 import Btn from "../common/Button/Btn";
 import Fade from "react-reveal//Fade";
 import {Field, reduxForm} from "redux-form";
-import {tryCatch} from "../dal/api";
 import {required} from "../utils/validators";
 import {Input, TextArea} from "../common/FormItems/formElements";
+import {connect} from "react-redux";
+import {ActionThunk} from "../business/thunk";
 
-function Contacts(props) {
+const Contacts = (props) => {
+
     let sendForm = (formData) => {
         console.log(formData)
 
-        tryCatch(formData)
-        // axios.post('http://localhost:3010/sendformdata',
-        //     {
-        //         name,
-        //         email,
-        //         message
-        //     })
-        //     .then(() => alert('everything is ok'))
+        props.ActionThunk(formData)
     }
 
 
@@ -34,40 +29,41 @@ function Contacts(props) {
     );
 }
 
-const FeedbackForm = (props) => {
-// debugger
-    return (
-        <form className={styles.form} onSubmit={props.handleSubmit}>
-            <Fade bottom>
-                <Field placeholder="Name"
-                       component={Input}
-                       name={'name'}
-                       validate={[required]}
-                />
-            </Fade>
-            <Fade bottom>
-                <Field placeholder="Email"
-                       component={Input}
-                       name={'email'}
-                       validate={[required]}
-                />
-            </Fade>
-            <Fade bottom>
-                <Field placeholder="Your message"
-                       component={TextArea}
-                       name={'message'}
-                       cols="30"
-                       rows="5"
-                       validate={[required]}
-                />
-            </Fade>
+class FeedbackForm extends React.Component {
+    render() {
+        return (
+            <form className={styles.form} onSubmit={this.props.handleSubmit}>
+                <Fade bottom>
+                    <Field placeholder="Name"
+                           component={Input}
+                           name={'name'}
+                           validate={[required]}
+                    />
+                </Fade>
+                <Fade bottom>
+                    <Field placeholder="Email"
+                           component={Input}
+                           name={'email'}
+                           validate={[required]}
+                    />
+                </Fade>
+                <Fade bottom>
+                    <Field placeholder="Your message"
+                           component={TextArea}
+                           name={'message'}
+                           cols="30"
+                           rows="5"
+                           validate={[required]}
+                    />
+                </Fade>
 
-            <Btn btn={props.btn}/>
-        </form>
-    )
+                <Btn btn={this.props.btn}/>
+            </form>
+        )
+    }
 }
 
 const ReduxFeedbackForm = reduxForm({form: "feedback"})(FeedbackForm)
 
 
-export default Contacts;
+export default connect(null, {ActionThunk})(Contacts);
