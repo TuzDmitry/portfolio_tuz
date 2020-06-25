@@ -6,7 +6,7 @@ const Btn = (props) => {
     return (
         <>
             {(props.btn.buttonClass==='btnBlock')&&
-            <button className={style.btnBlock}>{props.btn.buttonName}</button>}
+            <button disabled={props.isDisabled} className={style.btnBlock}>{props.btn.buttonName}</button>}
            {(props.btn.buttonClass==='btnProject')&&
             <button className={style.btnProject}>{props.btn.buttonName}</button>}
         </>

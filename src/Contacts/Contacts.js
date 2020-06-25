@@ -22,7 +22,7 @@ const Contacts = (props) => {
         <div id='contacts' className={styles.contacts}>
             <div className={styles.container}>
                 <Fade bottom><TitleBlock titleName={props.state.titleName}/></Fade>
-                <ReduxFeedbackForm btn={props.state.button} onSubmit={sendForm}/>
+                <ReduxFeedbackForm isDisabled={props.isPending} btn={props.state.button} onSubmit={sendForm}/>
             </div>
         </div>
 
@@ -57,7 +57,7 @@ class FeedbackForm extends React.Component {
                     />
                 </Fade>
 
-                <Btn btn={this.props.btn}/>
+                <Btn btn={this.props.btn} isDisabled={this.props.isDisabled}/>
             </form>
         )
     }
@@ -65,5 +65,10 @@ class FeedbackForm extends React.Component {
 
 const ReduxFeedbackForm = reduxForm({form: "feedback"})(FeedbackForm)
 
+const mstp = (state) => {
+    return {
+        isPending: state.formBlock.isPending
+    }
+}
 
-export default connect(null, {ActionThunk})(Contacts);
+export default connect(mstp, {ActionThunk})(Contacts);
