@@ -19,12 +19,7 @@
 .btnBlock{
     background: no-repeat;
 }
-.btnProject{
-    z-index: 5;
-}
-.btnProject:hover{
-    z-index: 5;
-}
+
 
 .btnBlock::before, .btnProject::before{
     content: "";

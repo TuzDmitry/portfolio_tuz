@@ -10,6 +10,8 @@ const Projects=(props) =>{
                                                                   nameOfProject={project.projectName}
                                                                   urlImg={project.srcImgProject}
                                                                   state={props.state}
+                                                                  hrefCode={project.hrefCode}
+                                                                  hrefReview={project.hrefReview}
                                                                   descriptOfProject={project.description} />)
 
   return (

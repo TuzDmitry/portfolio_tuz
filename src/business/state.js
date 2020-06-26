@@ -78,34 +78,49 @@ let state = {
     },
     projectsBlock: {
         titleName: 'My Works',
-        button: {
-            buttonName: 'Cмотреть',
-            buttonClass: 'btnProject'
-        },
+        button: [
+            {
+                buttonName: 'Code',
+                buttonClass: 'btnProject'
+            },
+            {
+                buttonName: 'Review',
+                buttonClass: 'btnProject'
+            }
+        ],
+
         projectItems: [
             {
                 id: 1,
                 projectName: 'Social Network',
                 description: 'Описание Social Network',
-                srcImgProject: proj1
+                srcImgProject: proj1,
+                hrefCode:'https://github.com/TuzDmitry',
+                hrefReview:'#'
             },
             {
                 id: 2,
                 projectName: 'ToDo List',
                 description: 'ToDo List',
-                srcImgProject: proj2
+                srcImgProject: proj2,
+                hrefCode:'https://github.com/TuzDmitry',
+                hrefReview:'#'
             },
             {
                 id: 3,
                 projectName: 'Catch me if you can',
                 description: 'Описание Catch me if you can',
-                srcImgProject: proj3
+                srcImgProject: proj3,
+                hrefCode:'https://github.com/TuzDmitry',
+                hrefReview:'https://tuzdmitry.github.io/app_dog_react/'
             },
             {
                 id: 4,
                 projectName: 'Counter',
                 description: 'Описание Counter',
-                srcImgProject: proj4
+                srcImgProject: proj4,
+                hrefCode:'https://github.com/TuzDmitry',
+                hrefReview:'https://tuzdmitry.github.io/counterV2/'
             },
         ]
     },

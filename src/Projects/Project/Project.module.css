@@ -10,7 +10,6 @@
 }
 
 .image {
-    z-index: 0;
     background-size: cover;
     display: flex;
     width: 450px;
@@ -18,12 +17,14 @@
 }
 
 .image:hover {
-    z-index: 0 !important;
-    filter: brightness(60%);
+    /*filter: brightness(60%);*/
+}
+
+.image a {
+    margin: auto;
 }
 
 .image button {
-    margin: auto;
     font-size: 1.2em;
     width: 150px;
     height: 45px;

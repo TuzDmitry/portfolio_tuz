@@ -5,10 +5,12 @@ const Btn = (props) => {
 
     return (
         <>
-            {(props.btn.buttonClass==='btnBlock')&&
+            {(props.btn.buttonClass === 'btnBlock') &&
             <button disabled={props.isDisabled} className={style.btnBlock}>{props.btn.buttonName}</button>}
-           {(props.btn.buttonClass==='btnProject')&&
-            <button className={style.btnProject}>{props.btn.buttonName}</button>}
+            {(props.btn.buttonClass === 'btnProject') &&
+            <a href={props.hrefBut}>
+                <button className={style.btnProject}>{props.btn.buttonName}</button>
+            </a>}
         </>
     )
 }
