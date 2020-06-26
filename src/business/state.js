@@ -141,7 +141,7 @@ let state = {
             },
             {
                 id: '3',
-                urladress: 'viber.com',
+                urladress: 'viber://chat?number=%2B375333093331',
                 srcLogo: viber,
                 altText: 'viber'
             },

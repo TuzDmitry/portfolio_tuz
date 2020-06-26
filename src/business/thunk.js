@@ -1,19 +1,20 @@
 import {reset} from "redux-form";
-import {tryCatch} from "../dal/api";
+import {postForm} from "../dal/api";
 import {toggleIsPending} from "./settingReducer";
 
 
-export const ActionThunk = (formData) => {
+export const SendForm = (formData) => {
     return (dispatch) => {
         dispatch(toggleIsPending(true))
-        tryCatch(formData)
-            .then((data) => {
+        postForm(formData)
+            .then((res) => {
                     dispatch(toggleIsPending(false))
-                    // debugger
-                    if (!data) {
+
+                    if (res.status===200) {
                         dispatch(reset('feedback'))
+                        alert(res.data)
                     } else {
-                        alert(data)
+                        alert(res)
                     }
                 }
             )

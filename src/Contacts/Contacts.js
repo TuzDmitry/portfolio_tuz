@@ -4,17 +4,17 @@ import TitleBlock from "../common/TitleBlock/TitleBlock";
 import Btn from "../common/Button/Btn";
 import Fade from "react-reveal//Fade";
 import {Field, reduxForm} from "redux-form";
-import {required} from "../utils/validators";
+import {email, required} from "../utils/validators";
 import {Input, TextArea} from "../common/FormItems/formElements";
 import {connect} from "react-redux";
-import {ActionThunk} from "../business/thunk";
+import {SendForm} from "../business/thunk";
 
 const Contacts = (props) => {
 
     let sendForm = (formData) => {
         console.log(formData)
 
-        props.ActionThunk(formData)
+        props.SendForm(formData)
     }
 
 
@@ -44,7 +44,7 @@ class FeedbackForm extends React.Component {
                     <Field placeholder="Email"
                            component={Input}
                            name={'email'}
-                           validate={[required]}
+                           validate={[required, email]}
                     />
                 </Fade>
                 <Fade bottom>
@@ -71,4 +71,4 @@ const mstp = (state) => {
     }
 }
 
-export default connect(mstp, {ActionThunk})(Contacts);
+export default connect(mstp, {SendForm})(Contacts);
