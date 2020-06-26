@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a205c9ae8e5acfc1bc41678b0f3e8b70",
+    "revision": "2fb775d021936f390ccba52cf4a70854",
     "url": "/portfolio_tuz/index.html"
   },
   {
-    "revision": "5c62c3f039b816bac5f9",
-    "url": "/portfolio_tuz/static/css/main.d4ebd95f.chunk.css"
+    "revision": "688914e37ed556979a8c",
+    "url": "/portfolio_tuz/static/css/main.30fd7bbd.chunk.css"
   },
   {
-    "revision": "b7c4ccda92f356883999",
-    "url": "/portfolio_tuz/static/js/2.a27c6ea0.chunk.js"
+    "revision": "bc49673fb2d99f160bb7",
+    "url": "/portfolio_tuz/static/js/2.12b68d28.chunk.js"
   },
   {
-    "revision": "eff3b4d7e4bb0087ce53139cd90bc880",
-    "url": "/portfolio_tuz/static/js/2.a27c6ea0.chunk.js.LICENSE.txt"
+    "revision": "f231859d6585c4cd5f80c344783ed269",
+    "url": "/portfolio_tuz/static/js/2.12b68d28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5c62c3f039b816bac5f9",
-    "url": "/portfolio_tuz/static/js/main.05a565a1.chunk.js"
+    "revision": "688914e37ed556979a8c",
+    "url": "/portfolio_tuz/static/js/main.8bcb848a.chunk.js"
   },
   {
     "revision": "e97b631bb12a6dd0e9b3",
