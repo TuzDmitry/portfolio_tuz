@@ -10,8 +10,8 @@ import typescriptIco from '../assets/images/typescript.png'
 
 import proj1 from '../assets/images/project_1.jpg'
 import proj2 from '../assets/images/project_2.jpg'
-import proj3 from '../assets/images/project_3.jpg'
-import proj4 from '../assets/images/project_4.jpg'
+import proj3 from '../assets/images/catch_me.PNG'
+import proj4 from '../assets/images/counter.PNG'
 
 import vk from '../assets/images/socials/vk.png'
 import google from '../assets/images/socials/google.png'
