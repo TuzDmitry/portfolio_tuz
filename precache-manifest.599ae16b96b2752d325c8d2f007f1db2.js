@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f41b00f1c32527d46b3826cc793f4b9",
+    "revision": "e73c6d4174ef58e95bc033dafe9f19ff",
     "url": "/portfolio_tuz/index.html"
   },
   {
-    "revision": "67464867156ab5b2cc8a",
+    "revision": "f337d74e2561cd2fbacb",
     "url": "/portfolio_tuz/static/css/main.5d36c2a2.chunk.css"
   },
   {
@@ -16,12 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio_tuz/static/js/2.803b57c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "67464867156ab5b2cc8a",
-    "url": "/portfolio_tuz/static/js/main.f42e940a.chunk.js"
+    "revision": "f337d74e2561cd2fbacb",
+    "url": "/portfolio_tuz/static/js/main.752c653a.chunk.js"
   },
   {
     "revision": "e97b631bb12a6dd0e9b3",
     "url": "/portfolio_tuz/static/js/runtime-main.ae29e335.js"
+  },
+  {
+    "revision": "fea41d93b19a3289a4e29199fcb7cb5b",
+    "url": "/portfolio_tuz/static/media/catch_me.fea41d93.PNG"
+  },
+  {
+    "revision": "580713fdfe0d2c92c5c6ef83463593e3",
+    "url": "/portfolio_tuz/static/media/counter.580713fd.PNG"
   },
   {
     "revision": "ddbb6e6fa9d6a392b48b057f44933398",
@@ -46,14 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e6014240bb8cb2a8278c72eda1f40a71",
     "url": "/portfolio_tuz/static/media/project_2.e6014240.jpg"
-  },
-  {
-    "revision": "3dcdfcdd7d5a5c97122f5d4223b97cb2",
-    "url": "/portfolio_tuz/static/media/project_3.3dcdfcdd.jpg"
-  },
-  {
-    "revision": "0d5b04380dd13e66522ca900e28a86ce",
-    "url": "/portfolio_tuz/static/media/project_4.0d5b0438.jpg"
   },
   {
     "revision": "84331f10b4148ffb813cdafc281b1469",
