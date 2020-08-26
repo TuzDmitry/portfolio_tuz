@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e73c6d4174ef58e95bc033dafe9f19ff",
+    "revision": "8a219a0c94c68f335ff5ec615e8635ef",
     "url": "/portfolio_tuz/index.html"
   },
   {
-    "revision": "f337d74e2561cd2fbacb",
-    "url": "/portfolio_tuz/static/css/main.5d36c2a2.chunk.css"
+    "revision": "9a1dfd7ff4f44a989616",
+    "url": "/portfolio_tuz/static/css/main.e8d29320.chunk.css"
   },
   {
     "revision": "c0c3509ed8fd2b420a41",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio_tuz/static/js/2.803b57c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f337d74e2561cd2fbacb",
-    "url": "/portfolio_tuz/static/js/main.752c653a.chunk.js"
+    "revision": "9a1dfd7ff4f44a989616",
+    "url": "/portfolio_tuz/static/js/main.1c5139f0.chunk.js"
   },
   {
     "revision": "e97b631bb12a6dd0e9b3",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio_tuz/static/media/js.35b5cbd5.png"
   },
   {
-    "revision": "ba8db61aa45de073572861a60194909e",
-    "url": "/portfolio_tuz/static/media/my_main_photo.ba8db61a.jpg"
+    "revision": "d252c9ba46926430f3ed60b635b13992",
+    "url": "/portfolio_tuz/static/media/my_main_photo.d252c9ba.jpg"
   },
   {
     "revision": "0e5f617c6cff3c9e60a76e75dc99e203",

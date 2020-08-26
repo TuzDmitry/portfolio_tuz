@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio_tuz/static/css/main.5d36c2a2.chunk.css",
-    "main.js": "/portfolio_tuz/static/js/main.752c653a.chunk.js",
-    "main.js.map": "/portfolio_tuz/static/js/main.752c653a.chunk.js.map",
+    "main.css": "/portfolio_tuz/static/css/main.e8d29320.chunk.css",
+    "main.js": "/portfolio_tuz/static/js/main.1c5139f0.chunk.js",
+    "main.js.map": "/portfolio_tuz/static/js/main.1c5139f0.chunk.js.map",
     "runtime-main.js": "/portfolio_tuz/static/js/runtime-main.ae29e335.js",
     "runtime-main.js.map": "/portfolio_tuz/static/js/runtime-main.ae29e335.js.map",
     "static/js/2.803b57c9.chunk.js": "/portfolio_tuz/static/js/2.803b57c9.chunk.js",
     "static/js/2.803b57c9.chunk.js.map": "/portfolio_tuz/static/js/2.803b57c9.chunk.js.map",
     "index.html": "/portfolio_tuz/index.html",
-    "precache-manifest.599ae16b96b2752d325c8d2f007f1db2.js": "/portfolio_tuz/precache-manifest.599ae16b96b2752d325c8d2f007f1db2.js",
+    "precache-manifest.b1059d0896ac4ae2cc4cbc65cc248e57.js": "/portfolio_tuz/precache-manifest.b1059d0896ac4ae2cc4cbc65cc248e57.js",
     "service-worker.js": "/portfolio_tuz/service-worker.js",
-    "static/css/main.5d36c2a2.chunk.css.map": "/portfolio_tuz/static/css/main.5d36c2a2.chunk.css.map",
+    "static/css/main.e8d29320.chunk.css.map": "/portfolio_tuz/static/css/main.e8d29320.chunk.css.map",
     "static/js/2.803b57c9.chunk.js.LICENSE.txt": "/portfolio_tuz/static/js/2.803b57c9.chunk.js.LICENSE.txt",
     "static/media/catch_me.PNG": "/portfolio_tuz/static/media/catch_me.fea41d93.PNG",
     "static/media/counter.PNG": "/portfolio_tuz/static/media/counter.580713fd.PNG",
     "static/media/css.png": "/portfolio_tuz/static/media/css.ddbb6e6f.png",
     "static/media/html.png": "/portfolio_tuz/static/media/html.1894126b.png",
     "static/media/js.png": "/portfolio_tuz/static/media/js.35b5cbd5.png",
-    "static/media/my_main_photo.jpg": "/portfolio_tuz/static/media/my_main_photo.ba8db61a.jpg",
+    "static/media/my_main_photo.jpg": "/portfolio_tuz/static/media/my_main_photo.d252c9ba.jpg",
     "static/media/project_1.jpg": "/portfolio_tuz/static/media/project_1.0e5f617c.jpg",
     "static/media/project_2.jpg": "/portfolio_tuz/static/media/project_2.e6014240.jpg",
     "static/media/react.png": "/portfolio_tuz/static/media/react.84331f10.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.ae29e335.js",
     "static/js/2.803b57c9.chunk.js",
-    "static/css/main.5d36c2a2.chunk.css",
-    "static/js/main.752c653a.chunk.js"
+    "static/css/main.e8d29320.chunk.css",
+    "static/js/main.1c5139f0.chunk.js"
   ]
 }
