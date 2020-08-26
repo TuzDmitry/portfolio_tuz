@@ -14,7 +14,7 @@ import proj3 from '../assets/images/catch_me.PNG'
 import proj4 from '../assets/images/counter.PNG'
 
 import vk from '../assets/images/socials/vk.png'
-import google from '../assets/images/socials/google.png'
+import fb from '../assets/images/socials/fb.png'
 import In from '../assets/images/socials/linkedin.png'
 import telegtam from '../assets/images/socials/telegram.png'
 import viber from '../assets/images/socials/viber.png'
@@ -22,16 +22,16 @@ import viber from '../assets/images/socials/viber.png'
 let state = {
     headerBlock: {
         navLinks: [
-            {id: 'main', title: 'Главная'},
-            {id: 'skills', title: 'Скиллы'},
-            {id: 'projects', title: 'Работы'},
-            {id: 'contacts', title: 'Контакты'}
+            {id: 'main', title: 'Main'},
+            {id: 'skills', title: 'Skills'},
+            {id: 'projects', title: 'Projects'},
+            {id: 'contacts', title: 'Contacts'}
         ]
     },
     mainBlock: {
         info: {
             myName: 'Dmitry Tuz',
-            description: 'Я React разработчик',
+            description: 'I am a Frontend Developer',
             srcPhoto: ava
         },
     },
@@ -93,7 +93,7 @@ let state = {
             {
                 id: 1,
                 projectName: 'Social Network',
-                description: 'Описание Social Network',
+                description: ' Social networking service "CWB"',
                 srcImgProject: proj1,
                 hrefCode:'https://github.com/TuzDmitry',
                 hrefReview:'#'
@@ -101,7 +101,7 @@ let state = {
             {
                 id: 2,
                 projectName: 'ToDo List',
-                description: 'ToDo List',
+                description: 'Task manager application',
                 srcImgProject: proj2,
                 hrefCode:'https://github.com/TuzDmitry',
                 hrefReview:'#'
@@ -109,7 +109,7 @@ let state = {
             {
                 id: 3,
                 projectName: 'Catch me if you can',
-                description: 'Описание Catch me if you can',
+                description: 'Simple game',
                 srcImgProject: proj3,
                 hrefCode:'https://github.com/TuzDmitry',
                 hrefReview:'https://tuzdmitry.github.io/app_dog_react/'
@@ -117,7 +117,7 @@ let state = {
             {
                 id: 4,
                 projectName: 'Counter',
-                description: 'Описание Counter',
+                description: 'Manual counter',
                 srcImgProject: proj4,
                 hrefCode:'https://github.com/TuzDmitry',
                 hrefReview:'https://tuzdmitry.github.io/counterV2/'
@@ -125,9 +125,9 @@ let state = {
         ]
     },
     sloganBlock: {
-        titleName: 'Рассматриваю вариант удаленной работы',
+        titleName: 'Able to remote working',
         button: {
-            buttonName: 'Нанять меня',
+            buttonName: 'Hire me',
             buttonClass: 'btnBlock'
         }
     },
@@ -139,7 +139,7 @@ let state = {
         }
     },
     footerBlock: {
-        titleName: 'Туз Дмитрий',
+        titleName: 'Dmitry Tuz',
         copyrightText: '© 2020, All Rights Reserved',
         socialContacts: [
             {
@@ -168,9 +168,9 @@ let state = {
             },
             {
                 id: '5',
-                urladress: 'google.com',
-                srcLogo: google,
-                altText: 'google'
+                urladress: 'https://www.facebook.com/profile.php?id=100001677874830',
+                srcLogo: fb,
+                altText: 'facebook'
             },
         ]
     },

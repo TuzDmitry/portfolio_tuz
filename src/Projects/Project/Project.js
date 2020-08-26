@@ -7,22 +7,14 @@ const Project = (props) => {
         backgroundImage: `url('${props.urlImg}')`,
     };
 
-
-    // let stateWithUseStare=useState(false)
-    // let isShowedBnt=stateWithUseStare[0]
-    // let SetIsShowedBnt=stateWithUseStare[1]
-
-
     let [isShowedBnt,SetIsShowedBnt]=useState(false)
 
-    let ShowBtn=()=>SetIsShowedBnt(true)
-    let HideBtn=()=>SetIsShowedBnt(false)
 
     return (
         <div className={styles.project}>
             <div className={styles.image}
-                 onMouseLeave={HideBtn}
-                 onMouseEnter={ShowBtn}
+                 onMouseLeave={()=>SetIsShowedBnt(false)}
+                 onMouseEnter={()=>SetIsShowedBnt(true)}
                  style={urlImg}>
                 {isShowedBnt?<Btn btn={props.state.button[0]} hrefBut={props.hrefCode}/>:''}
                 {isShowedBnt?<Btn btn={props.state.button[1]} hrefBut={props.hrefReview}/>:''}

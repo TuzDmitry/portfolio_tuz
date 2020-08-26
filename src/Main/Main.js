@@ -26,7 +26,7 @@ const Main = (props) => {
                 <Flip top>
                 <div className={styles.greeting}>
                     <div>Hi</div>
-                    <div>I am</div>
+                    <div>My name is</div>
                     <div className={styles.firstLastName}> {props.state.info.myName}</div>
                     <h1>{props.state.info.description}</h1>
                 </div>

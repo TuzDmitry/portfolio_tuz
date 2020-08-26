@@ -23,7 +23,7 @@
 }
 
 .greeting div:nth-child(1) {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .greeting div:nth-child(2),.greeting div:nth-child(3) {
