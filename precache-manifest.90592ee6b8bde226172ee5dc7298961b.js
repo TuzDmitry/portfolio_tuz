@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a219a0c94c68f335ff5ec615e8635ef",
+    "revision": "bf9e96ac5a925758c34e7961caed81e0",
     "url": "/portfolio_tuz/index.html"
   },
   {
-    "revision": "9a1dfd7ff4f44a989616",
+    "revision": "1de4c07957071f59e955",
     "url": "/portfolio_tuz/static/css/main.e8d29320.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio_tuz/static/js/2.803b57c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9a1dfd7ff4f44a989616",
-    "url": "/portfolio_tuz/static/js/main.1c5139f0.chunk.js"
+    "revision": "1de4c07957071f59e955",
+    "url": "/portfolio_tuz/static/js/main.044477ce.chunk.js"
   },
   {
     "revision": "e97b631bb12a6dd0e9b3",
