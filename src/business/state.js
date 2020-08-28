@@ -1,6 +1,5 @@
 import ava from '../assets/images/my_main_photo.jpg'
 
-
 import htmlIco from '../assets/images/html.png'
 import cssIco from '../assets/images/css.png'
 import reactIco from '../assets/images/react.png'
@@ -103,15 +102,15 @@ let state = {
                 projectName: 'ToDo List',
                 description: 'Task manager application',
                 srcImgProject: proj2,
-                hrefCode:'https://github.com/TuzDmitry',
-                hrefReview:'#'
+                hrefCode:'https://github.com/TuzDmitry/todolist_typescript',
+                hrefReview:'https://tuzdmitry.github.io/todolist_typescript/'
             },
             {
                 id: 3,
                 projectName: 'Catch me if you can',
                 description: 'Simple game',
                 srcImgProject: proj3,
-                hrefCode:'https://github.com/TuzDmitry',
+                hrefCode:'https://github.com/TuzDmitry/app_dog_react',
                 hrefReview:'https://tuzdmitry.github.io/app_dog_react/'
             },
             {
@@ -119,7 +118,7 @@ let state = {
                 projectName: 'Counter',
                 description: 'Manual counter',
                 srcImgProject: proj4,
-                hrefCode:'https://github.com/TuzDmitry',
+                hrefCode:'https://github.com/TuzDmitry/counterV2',
                 hrefReview:'https://tuzdmitry.github.io/counterV2/'
             },
         ]
