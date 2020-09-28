@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf9e96ac5a925758c34e7961caed81e0",
+    "revision": "ecd363803ffb33de256b6e0f2e9491be",
     "url": "/portfolio_tuz/index.html"
   },
   {
-    "revision": "1de4c07957071f59e955",
-    "url": "/portfolio_tuz/static/css/main.e8d29320.chunk.css"
+    "revision": "3b6d36f1c4157f266853",
+    "url": "/portfolio_tuz/static/css/main.fcdcea3b.chunk.css"
   },
   {
     "revision": "c0c3509ed8fd2b420a41",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio_tuz/static/js/2.803b57c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1de4c07957071f59e955",
-    "url": "/portfolio_tuz/static/js/main.044477ce.chunk.js"
+    "revision": "3b6d36f1c4157f266853",
+    "url": "/portfolio_tuz/static/js/main.dbb1f5ed.chunk.js"
   },
   {
     "revision": "e97b631bb12a6dd0e9b3",
@@ -48,20 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio_tuz/static/media/my_main_photo.d252c9ba.jpg"
   },
   {
-    "revision": "0e5f617c6cff3c9e60a76e75dc99e203",
-    "url": "/portfolio_tuz/static/media/project_1.0e5f617c.jpg"
-  },
-  {
-    "revision": "e6014240bb8cb2a8278c72eda1f40a71",
-    "url": "/portfolio_tuz/static/media/project_2.e6014240.jpg"
-  },
-  {
     "revision": "84331f10b4148ffb813cdafc281b1469",
     "url": "/portfolio_tuz/static/media/react.84331f10.png"
   },
   {
     "revision": "803050d181cc20f5323a5199e3f389ca",
     "url": "/portfolio_tuz/static/media/redux.803050d1.png"
+  },
+  {
+    "revision": "acafc757032b87a8c6716d4c4e80e0ac",
+    "url": "/portfolio_tuz/static/media/social-network.acafc757.PNG"
+  },
+  {
+    "revision": "870249f80fed3ae445ee4604bc099a8e",
+    "url": "/portfolio_tuz/static/media/todolist.870249f8.PNG"
   },
   {
     "revision": "c4cc93c8f3e8a64e7490f2a78f77cac8",
