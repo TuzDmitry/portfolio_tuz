@@ -51,17 +51,20 @@
     margin-bottom: 15px;
     background: #252527;
     border: 1px solid #4a4a4a;
-    font-size: 12px;
+    /*font-size: 12px;*/
     padding: 0 15px;
     border-radius: 0;
     line-height: 1.5;
-    color: #495057;
+    color: #ffffff;
     font-weight: 300;
     line-height: 1.5;
     width: 100%;
     box-sizing: border-box;
 }
 
+.form input::placeholder, .form textarea::placeholder {
+    color: #cdfaf8;
+}
 
 @media only screen and (max-width: 850px) {
     .contacts {

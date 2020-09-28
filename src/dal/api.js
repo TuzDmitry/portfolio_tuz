@@ -1,15 +1,5 @@
 import axios from "axios";
 
-export const postForm = async (formData) => {
-    try {
-        let res = await API.postFeedBackForm(formData)
-        await console.log(res)
-        return res
-    } catch (error) {
-        return error
-    }
-}
-
 export const API = {
     postFeedBackForm(formData) {
         let {name, email, message} = formData;

@@ -7,8 +7,8 @@ import reduxIco from '../assets/images/redux.png'
 import jsIco from '../assets/images/js.png'
 import typescriptIco from '../assets/images/typescript.png'
 
-import proj1 from '../assets/images/project_1.jpg'
-import proj2 from '../assets/images/project_2.jpg'
+import proj1 from '../assets/images/social-network.PNG'
+import proj2 from '../assets/images/todolist.PNG'
 import proj3 from '../assets/images/catch_me.PNG'
 import proj4 from '../assets/images/counter.PNG'
 
@@ -95,7 +95,7 @@ let state = {
                 description: ' Social networking service "CWB"',
                 srcImgProject: proj1,
                 hrefCode:'https://github.com/TuzDmitry',
-                hrefReview:'#'
+                hrefReview:'https://tuzdmitry.github.io/social_network_tuz/#/'
             },
             {
                 id: 2,
