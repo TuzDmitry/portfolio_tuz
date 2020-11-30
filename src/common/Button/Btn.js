@@ -6,9 +6,7 @@ const Btn = (props) => {
     return (
         <>
             {(props.btn.buttonClass === 'btnBlock') &&
-            // <a href={'#contacts'}>
                 <button disabled={props.isDisabled} className={style.btnBlock}>{props.btn.buttonName}</button>
-            // </a>
             }
             {(props.btn.buttonClass === 'btnProject') &&
             <a href={props.hrefBut}>
